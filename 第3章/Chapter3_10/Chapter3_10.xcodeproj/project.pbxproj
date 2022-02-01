@@ -19,6 +19,9 @@
 		DAB5551F27A8CCDA0002F471 /* GitHubRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB5551E27A8CCDA0002F471 /* GitHubRepository.swift */; };
 		DAB5552127A8CCE40002F471 /* GitHubAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB5552027A8CCE40002F471 /* GitHubAPIClient.swift */; };
 		DAB5552327A8CCEB0002F471 /* GitHubRepositoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB5552227A8CCEB0002F471 /* GitHubRepositoryManager.swift */; };
+		DAB5552527A8D19B0002F471 /* GitHubAPIClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB5552427A8D19B0002F471 /* GitHubAPIClientProtocol.swift */; };
+		DAB5552727A8D22E0002F471 /* GitHubRepositoryManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB5552627A8D22E0002F471 /* GitHubRepositoryManagerTests.swift */; };
+		DAB5552927A8D3CB0002F471 /* MockGitHubAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB5552827A8D3CB0002F471 /* MockGitHubAPIClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,9 @@
 		DAB5551E27A8CCDA0002F471 /* GitHubRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubRepository.swift; sourceTree = "<group>"; };
 		DAB5552027A8CCE40002F471 /* GitHubAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubAPIClient.swift; sourceTree = "<group>"; };
 		DAB5552227A8CCEB0002F471 /* GitHubRepositoryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubRepositoryManager.swift; sourceTree = "<group>"; };
+		DAB5552427A8D19B0002F471 /* GitHubAPIClientProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubAPIClientProtocol.swift; sourceTree = "<group>"; };
+		DAB5552627A8D22E0002F471 /* GitHubRepositoryManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubRepositoryManagerTests.swift; sourceTree = "<group>"; };
+		DAB5552827A8D3CB0002F471 /* MockGitHubAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockGitHubAPIClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,7 @@
 				DAB554F027A8CCB80002F471 /* SceneDelegate.swift */,
 				DAB554F227A8CCB80002F471 /* ViewController.swift */,
 				DAB5551E27A8CCDA0002F471 /* GitHubRepository.swift */,
+				DAB5552427A8D19B0002F471 /* GitHubAPIClientProtocol.swift */,
 				DAB5552027A8CCE40002F471 /* GitHubAPIClient.swift */,
 				DAB5552227A8CCEB0002F471 /* GitHubRepositoryManager.swift */,
 				DAB554F427A8CCB80002F471 /* Main.storyboard */,
@@ -123,6 +130,8 @@
 			isa = PBXGroup;
 			children = (
 				DAB5550527A8CCB90002F471 /* Chapter3_10Tests.swift */,
+				DAB5552827A8D3CB0002F471 /* MockGitHubAPIClient.swift */,
+				DAB5552627A8D22E0002F471 /* GitHubRepositoryManagerTests.swift */,
 			);
 			path = Chapter3_10Tests;
 			sourceTree = "<group>";
@@ -272,6 +281,7 @@
 				DAB554F327A8CCB80002F471 /* ViewController.swift in Sources */,
 				DAB554EF27A8CCB80002F471 /* AppDelegate.swift in Sources */,
 				DAB5552327A8CCEB0002F471 /* GitHubRepositoryManager.swift in Sources */,
+				DAB5552527A8D19B0002F471 /* GitHubAPIClientProtocol.swift in Sources */,
 				DAB554F127A8CCB80002F471 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +290,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAB5552927A8D3CB0002F471 /* MockGitHubAPIClient.swift in Sources */,
+				DAB5552727A8D22E0002F471 /* GitHubRepositoryManagerTests.swift in Sources */,
 				DAB5550627A8CCB90002F471 /* Chapter3_10Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

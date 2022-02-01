@@ -7,7 +7,7 @@
 
 import Foundation
 
-class GitHubAPIClient {
+class GitHubAPIClient: GitHubAPIClientProtocol {
 
     func fetchRepositories(user: String,
                            handler: @escaping ([GitHubRepository]?) -> Void) {
