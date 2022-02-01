@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA44EAF427A82D19007FFE2D /* CustomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA44EAF327A82D19007FFE2D /* CustomTests.swift */; };
 		DA60E6B627A36BCC002651BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA60E6B527A36BCC002651BB /* AppDelegate.swift */; };
 		DA60E6B827A36BCC002651BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA60E6B727A36BCC002651BB /* SceneDelegate.swift */; };
 		DA60E6BA27A36BCC002651BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA60E6B927A36BCC002651BB /* ViewController.swift */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DA44EAF327A82D19007FFE2D /* CustomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTests.swift; sourceTree = "<group>"; };
 		DA60E6B227A36BCC002651BB /* Chapter3_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chapter3_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA60E6B527A36BCC002651BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA60E6B727A36BCC002651BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 				DAF2F2CE27A37C300075ACC7 /* AssertionObjectiveTests.swift */,
 				DAF2F2D027A37D260075ACC7 /* XCTFailTests.swift */,
 				DAF2F2D227A37F800075ACC7 /* ExceptionTests.swift */,
+				DA44EAF327A82D19007FFE2D /* CustomTests.swift */,
 			);
 			path = Chapter3_1Tests;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA44EAF427A82D19007FFE2D /* CustomTests.swift in Sources */,
 				DAF2F2D327A37F800075ACC7 /* ExceptionTests.swift in Sources */,
 				DAF2F2C427A36D030075ACC7 /* CalculatorTests.swift in Sources */,
 				DAF2F2D127A37D260075ACC7 /* XCTFailTests.swift in Sources */,
