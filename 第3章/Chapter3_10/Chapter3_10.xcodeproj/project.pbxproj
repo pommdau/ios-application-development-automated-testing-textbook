@@ -13,7 +13,6 @@
 		DAB554F627A8CCB80002F471 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB554F427A8CCB80002F471 /* Main.storyboard */; };
 		DAB554F827A8CCB90002F471 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB554F727A8CCB90002F471 /* Assets.xcassets */; };
 		DAB554FB27A8CCB90002F471 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB554F927A8CCB90002F471 /* LaunchScreen.storyboard */; };
-		DAB5550627A8CCB90002F471 /* Chapter3_10Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB5550527A8CCB90002F471 /* Chapter3_10Tests.swift */; };
 		DAB5551027A8CCB90002F471 /* Chapter3_10UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB5550F27A8CCB90002F471 /* Chapter3_10UITests.swift */; };
 		DAB5551227A8CCB90002F471 /* Chapter3_10UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB5551127A8CCB90002F471 /* Chapter3_10UITestsLaunchTests.swift */; };
 		DAB5551F27A8CCDA0002F471 /* GitHubRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB5551E27A8CCDA0002F471 /* GitHubRepository.swift */; };
@@ -51,7 +50,6 @@
 		DAB554FA27A8CCB90002F471 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DAB554FC27A8CCB90002F471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAB5550127A8CCB90002F471 /* Chapter3_10Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Chapter3_10Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DAB5550527A8CCB90002F471 /* Chapter3_10Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter3_10Tests.swift; sourceTree = "<group>"; };
 		DAB5550B27A8CCB90002F471 /* Chapter3_10UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Chapter3_10UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAB5550F27A8CCB90002F471 /* Chapter3_10UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter3_10UITests.swift; sourceTree = "<group>"; };
 		DAB5551127A8CCB90002F471 /* Chapter3_10UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter3_10UITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -129,7 +127,6 @@
 		DAB5550427A8CCB90002F471 /* Chapter3_10Tests */ = {
 			isa = PBXGroup;
 			children = (
-				DAB5550527A8CCB90002F471 /* Chapter3_10Tests.swift */,
 				DAB5552827A8D3CB0002F471 /* MockGitHubAPIClient.swift */,
 				DAB5552627A8D22E0002F471 /* GitHubRepositoryManagerTests.swift */,
 			);
@@ -292,7 +289,6 @@
 			files = (
 				DAB5552927A8D3CB0002F471 /* MockGitHubAPIClient.swift in Sources */,
 				DAB5552727A8D22E0002F471 /* GitHubRepositoryManagerTests.swift in Sources */,
-				DAB5550627A8CCB90002F471 /* Chapter3_10Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

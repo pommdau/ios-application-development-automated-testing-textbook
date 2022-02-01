@@ -23,7 +23,7 @@ class ViewController: UIViewController {
         tableView.delegate = self
         tableView.dataSource = self
         
-        self.manager = GitHubRepositoryManager(client: GitHubAPIClient())
+        self.manager = GitHubRepositoryManager()
         self.manager.load(user: "apple") { [weak self] in
             self?.tableView.reloadData()
         }
