@@ -16,6 +16,10 @@
 		DA60E6C227A36BCD002651BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA60E6C027A36BCD002651BB /* LaunchScreen.storyboard */; };
 		DA60E6D727A36BCD002651BB /* Chapter3_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA60E6D627A36BCD002651BB /* Chapter3_1UITests.swift */; };
 		DA60E6D927A36BCD002651BB /* Chapter3_1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA60E6D827A36BCD002651BB /* Chapter3_1UITestsLaunchTests.swift */; };
+		DAB554D727A8B6DF0002F471 /* XCTContextTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB554D627A8B6DF0002F471 /* XCTContextTests.swift */; };
+		DAB554D927A8BC3B0002F471 /* XCTestExpectationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB554D827A8BC3B0002F471 /* XCTestExpectationTests.swift */; };
+		DAB554DF27A8BE120002F471 /* Chapter3_9Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB554DE27A8BE120002F471 /* Chapter3_9Tests.swift */; };
+		DAB554E127A8BF990002F471 /* Chapter3_9_bTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB554E027A8BF990002F471 /* Chapter3_9_bTests.swift */; };
 		DAF2F2C427A36D030075ACC7 /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF2F2C327A36D030075ACC7 /* CalculatorTests.swift */; };
 		DAF2F2C827A372470075ACC7 /* DogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF2F2C727A372470075ACC7 /* DogTests.swift */; };
 		DAF2F2CF27A37C300075ACC7 /* AssertionObjectiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF2F2CE27A37C300075ACC7 /* AssertionObjectiveTests.swift */; };
@@ -54,6 +58,10 @@
 		DA60E6D227A36BCD002651BB /* Chapter3_1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Chapter3_1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA60E6D627A36BCD002651BB /* Chapter3_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter3_1UITests.swift; sourceTree = "<group>"; };
 		DA60E6D827A36BCD002651BB /* Chapter3_1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter3_1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DAB554D627A8B6DF0002F471 /* XCTContextTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTContextTests.swift; sourceTree = "<group>"; };
+		DAB554D827A8BC3B0002F471 /* XCTestExpectationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestExpectationTests.swift; sourceTree = "<group>"; };
+		DAB554DE27A8BE120002F471 /* Chapter3_9Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter3_9Tests.swift; sourceTree = "<group>"; };
+		DAB554E027A8BF990002F471 /* Chapter3_9_bTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter3_9_bTests.swift; sourceTree = "<group>"; };
 		DAF2F2C327A36D030075ACC7 /* CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorTests.swift; sourceTree = "<group>"; };
 		DAF2F2C727A372470075ACC7 /* DogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogTests.swift; sourceTree = "<group>"; };
 		DAF2F2CE27A37C300075ACC7 /* AssertionObjectiveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssertionObjectiveTests.swift; sourceTree = "<group>"; };
@@ -129,6 +137,10 @@
 				DAF2F2D027A37D260075ACC7 /* XCTFailTests.swift */,
 				DAF2F2D227A37F800075ACC7 /* ExceptionTests.swift */,
 				DA44EAF327A82D19007FFE2D /* CustomTests.swift */,
+				DAB554D627A8B6DF0002F471 /* XCTContextTests.swift */,
+				DAB554D827A8BC3B0002F471 /* XCTestExpectationTests.swift */,
+				DAB554DE27A8BE120002F471 /* Chapter3_9Tests.swift */,
+				DAB554E027A8BF990002F471 /* Chapter3_9_bTests.swift */,
 			);
 			path = Chapter3_1Tests;
 			sourceTree = "<group>";
@@ -284,10 +296,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA44EAF427A82D19007FFE2D /* CustomTests.swift in Sources */,
+				DAB554D927A8BC3B0002F471 /* XCTestExpectationTests.swift in Sources */,
 				DAF2F2D327A37F800075ACC7 /* ExceptionTests.swift in Sources */,
+				DAB554D727A8B6DF0002F471 /* XCTContextTests.swift in Sources */,
+				DAB554E127A8BF990002F471 /* Chapter3_9_bTests.swift in Sources */,
 				DAF2F2C427A36D030075ACC7 /* CalculatorTests.swift in Sources */,
 				DAF2F2D127A37D260075ACC7 /* XCTFailTests.swift in Sources */,
 				DAF2F2CF27A37C300075ACC7 /* AssertionObjectiveTests.swift in Sources */,
+				DAB554DF27A8BE120002F471 /* Chapter3_9Tests.swift in Sources */,
 				DAF2F2C827A372470075ACC7 /* DogTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
