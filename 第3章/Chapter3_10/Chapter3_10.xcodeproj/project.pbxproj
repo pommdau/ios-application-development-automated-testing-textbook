@@ -112,10 +112,7 @@
 				DAB554EE27A8CCB80002F471 /* AppDelegate.swift */,
 				DAB554F027A8CCB80002F471 /* SceneDelegate.swift */,
 				DAB554F227A8CCB80002F471 /* ViewController.swift */,
-				DAB5551E27A8CCDA0002F471 /* GitHubRepository.swift */,
-				DAB5552427A8D19B0002F471 /* GitHubAPIClientProtocol.swift */,
-				DAB5552027A8CCE40002F471 /* GitHubAPIClient.swift */,
-				DAB5552227A8CCEB0002F471 /* GitHubRepositoryManager.swift */,
+				DAB5552A27A907410002F471 /* GitHub */,
 				DAB554F427A8CCB80002F471 /* Main.storyboard */,
 				DAB554F727A8CCB90002F471 /* Assets.xcassets */,
 				DAB554F927A8CCB90002F471 /* LaunchScreen.storyboard */,
@@ -140,6 +137,17 @@
 				DAB5551127A8CCB90002F471 /* Chapter3_10UITestsLaunchTests.swift */,
 			);
 			path = Chapter3_10UITests;
+			sourceTree = "<group>";
+		};
+		DAB5552A27A907410002F471 /* GitHub */ = {
+			isa = PBXGroup;
+			children = (
+				DAB5551E27A8CCDA0002F471 /* GitHubRepository.swift */,
+				DAB5552427A8D19B0002F471 /* GitHubAPIClientProtocol.swift */,
+				DAB5552027A8CCE40002F471 /* GitHubAPIClient.swift */,
+				DAB5552227A8CCEB0002F471 /* GitHubRepositoryManager.swift */,
+			);
+			path = GitHub;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

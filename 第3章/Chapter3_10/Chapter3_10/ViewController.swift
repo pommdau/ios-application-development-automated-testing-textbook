@@ -30,8 +30,6 @@ class ViewController: UIViewController {
     }
 
     // MARK: - Helpers
-    
-    
 
 }
 
