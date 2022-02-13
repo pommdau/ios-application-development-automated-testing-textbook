@@ -33,17 +33,23 @@ class AssertThrowTests: XCTestCase {
     // MARK: - Download Tests
     
     func testDownloadErrorThrowsError() {
+
         // XCTAssertThrowsErrorの引数はスローされた例外
+        
+        
         XCTAssertThrowsError(try downloadContent(connectionFailed: true, unknownError: false)) { (error: Error) -> Void in
+            // 指定した例外エラーが発生しているかの確認
             XCTAssertEqual(error as? DownloadError, DownloadError.connectionError)
         }
         
         XCTAssertThrowsError(try downloadContent(connectionFailed: false, unknownError: true)) { (error: Error) -> Void in
+            // 指定した例外エラーが発生しているかの確認
             XCTAssertEqual(error as? DownloadError, DownloadError.unknownError(code: 9))
         }
         
         XCTAssertThrowsError(try downloadContent(connectionFailed: false, unknownError: true)) { (error: Error) -> Void in
-            
+            // 指定した例外エラーが発生しているかの確認
+            // + エラーの詳細の確認
             guard let downloadError = error as? DownloadError else {
                 XCTFail()
                 return
@@ -58,6 +64,7 @@ class AssertThrowTests: XCTestCase {
             
             XCTAssertEqual(code, 9)
         }
+
     }
     
     // MARK: - SystemError Helpers
